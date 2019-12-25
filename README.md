@@ -7,7 +7,7 @@
 |nickname|string|null: false|
 ### Association
 - has_many :message
-- belong to  :group
+- has_many  :group
 
 ## groups_usersテーブル
 
