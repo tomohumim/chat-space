@@ -28,7 +28,6 @@
     width: calc(100vh - 60px);
     margin: 0 auto;
     color: white;
-
     }
     .top-items__icon{
       height: 20px;
@@ -46,9 +45,7 @@
       }
       
     }
-
-      
-    }
+   }
   }
 }
   .side-bar__group-List{
@@ -71,22 +68,10 @@
        }
   }
 }
-
-
-          
-       
-    
-  
-
-  
-
-  
-
 .block-main{
   width: calc(100vw - 300px);
   float: left;
   .main__group-info{
-  // position: fixed;
   width: calc(100% - 300px);
   height: 100px;
   background-color: #ffffff;
@@ -117,15 +102,8 @@
       right: 40px;
       }
     } 
-
-
-  }
-
-         
-      
-
-  
-  .main__message-list{
+}
+.main__message-list{
     height: calc(100vh - 190px);
     padding: 46px 40px;
     background-color: #fafafa;
@@ -178,11 +156,7 @@
           position: relative;
           background-color: white;
         }
-      
-      
-      
-    
-          .image__icon{
+        .image__icon{
           font-size: 1.3rem;
           position: relative;
           top: 10px;
@@ -191,24 +165,11 @@
           input{
             display: none;
             
-        }
-          
+       }
       }    
-      }
-      
-
+     }
     }
-     
-          
-
-        
-          
-       
-          
-           
-          
-        
-      }
+  }
       .btn{
         text-decoration: none;
       }
@@ -223,10 +184,7 @@
         justify-content: center;
         align-items: center;
         margin-left: 15px;
-        
-        
-      }
-    
-  }
+        }
+    }
 
 
