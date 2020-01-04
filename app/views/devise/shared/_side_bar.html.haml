@@ -1,13 +1,14 @@
 .side-bar
    .side-bar__user_name
+      = current_user.nickname
       .side-bar__top-items
-         .side-bar__top-items__name水野
+         .side-bar__top-items__name
          .side-bar__top-items__icon
             .icon__left
                = link_to "#", class: "contents__btn" do
                   = icon('fas', 'edit')
             .icon__right
-               = link_to "#", class: "contents__btn" do
+               = link_to edit_user_path(current_user), class: "contents__btn" do
                   =icon('fas', 'cog')
    .side-bar__group-List
       .group
