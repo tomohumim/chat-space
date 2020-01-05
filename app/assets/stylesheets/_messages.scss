@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 .wrapper {
   display: flex;
@@ -9,6 +10,7 @@
   background-color: #253141;
   height:100%;
   width: 300px;
+  color: white;
   &__user_name{
     background-color: #253141;
     height: 100px;
@@ -47,8 +49,7 @@
   }
 }
   .side-bar__group-List{
-    background-color: #2f3e51;
-    height: calc(100vh - 100px);
+    
     width: 300px;
     padding-right: 20px;
     padding-left: 20px;
@@ -56,14 +57,24 @@
     color:white;
   
     .group{
+      color:white;
       margin-bottom: 40px;
         &__name{
+          color:white;
           font-size:15px;
         }
         &__latest-message{
           padding-top: 5px;
           font-size: 11px;
-        }
+          }
+      .a{
+        color: white;
+        text-decoration: none;
+      }
+      .group__message{
+        color: white;
+        text-decoration: none;
+      }
     }
   }
   
