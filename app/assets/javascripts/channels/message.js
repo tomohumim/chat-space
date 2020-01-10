@@ -35,9 +35,7 @@ $(function(){
   <p class="lower-message__content">
   ${message.content}
   </p>
-
-  </div>
-
+ </div>
 </div>`
   return html;
 
