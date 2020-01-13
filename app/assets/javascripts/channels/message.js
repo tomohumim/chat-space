@@ -124,10 +124,10 @@ var reloadMessages = function() {
   
 })
   .fail(function() {
-    console.log('error');
+    alert('error');
   });
  };
  if (document.location.href.match(/\/groups\/\d+\/messages/)) {
-  setInterval(reloadMessages, 7000);
+  setInterval(reloadMessages, 3000);
 }
 });
