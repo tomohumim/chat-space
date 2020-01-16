@@ -84,8 +84,9 @@ $(function(){
     })
     .fail(function() {
       alert("メッセージ送信に失敗しました");
+      
   });
- })
+})
 
 var reloadMessages = function() {
   //カスタムデータ属性を利用し、ブラウザに表示されている最新メッセージのidを取得
