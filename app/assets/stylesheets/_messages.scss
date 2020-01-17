@@ -133,22 +133,24 @@
     background-color: #fafafa;
     // overflow: scroll;
     // align-items: stretch;
-    .message__box{
+    .message{
       padding-bottom: 35px;
     
-       .message__info{
+       .upper-message{
          padding-bottom: 12px;
          display:flex;
-         .user__name{
+         .upper-message__user-name{
            font-size: 16px;
            color: #333333;
+           padding-right: 10px;
          }
-         .user__date{
+         .upper-message__date{
            font-size: 12px;
            color:#999999
+           
          }
        }
-       .message__text{
+       .lower-message{
          font-size: 14px;
          color: #434a54;
          margin-bottom: 46px;
